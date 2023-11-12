@@ -1,0 +1,81 @@
+.Home {
+  .banner {
+    .item {
+      height: 535px;
+      background-size: cover !important;
+
+      .banner-desktop {
+        background-color: #fff;
+        display: none;
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .banner {
+      .item {
+        height: 500px;
+
+        .banner-desktop {
+          display: block;
+          width: 246px;
+          height: 450px;
+          position: absolute;
+          top: 23px;
+          right: 5%;
+        }
+      }
+    }
+  }
+
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .banner {
+      .item {
+        height: 340px;
+
+        .banner-desktop {
+          display: block;
+          width: 255px;
+          height: 478px;
+          position: absolute;
+          top: 30px;
+          right: 5%;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1366px) {
+    .banner {
+      .item {
+        height: 680px;
+
+        .banner-desktop {
+          display: block;
+          width: 255px;
+          height: 478px;
+          position: absolute;
+          top: 30px;
+          right: 8%;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1366px) {
+    .banner {
+      .item {
+        height: 680px;
+
+        .banner-desktop {
+          display: block;
+          width: 255px;
+          height: 478px;
+          position: absolute;
+          top: 30px;
+          right: 8%;
+        }
+      }
+    }
+  }
+}

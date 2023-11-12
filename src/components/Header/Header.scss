@@ -1,0 +1,54 @@
+.Header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  background-color: var(--white-900);
+
+  .headerContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    margin: 20px 0;
+  }
+
+  .headerContato {
+    display: flex;
+    align-items: center;
+  }
+
+  .headerContato {
+    p {
+      font-weight: bold;
+      text-align: center;
+      color: var(--grey-500);
+    }
+
+    img {
+      width: 19px;
+      height: 19px;
+    }
+  }
+
+  .headerContent {
+    img {
+      width: 35px;
+    }
+  }
+
+  .buttonContacao {
+    width: 100%;
+    height: 45px;
+    background-color: var(--blue-600);
+    color: var(--white-900);
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+  }
+}

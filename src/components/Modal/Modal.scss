@@ -1,0 +1,22 @@
+.Modal {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  width: 100%;
+  background-color: var(--white-900);
+  display: flex;
+  flex-direction: column;
+
+  .botttonClose {
+    width: 100%;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--grey-500);
+    text-align: center;
+    color: var(--white-900);
+    font-size: 14px;
+    font-weight: bold;
+  }
+}

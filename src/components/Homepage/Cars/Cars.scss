@@ -1,0 +1,179 @@
+.Cars {
+  width: 100%;
+
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: var(--black-700);
+  }
+
+  .logo-whatsapp {
+    width: 36px;
+    height: 36px;
+    position: fixed;
+    left: 33px;
+    bottom: 35px;
+    z-index: 99;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .itens-cars {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      .itens-cars {
+        .buttonLeft {
+          width: 275px;
+          height: 45px;
+          font-size: 14px;
+        }
+
+        .buttons {
+          .buttonRight {
+            display: none;
+          }
+        }
+
+        .compartilhar {
+          margin-top: 34px;
+          margin-bottom: 54px;
+        }
+      }
+    }
+
+    h2 {
+      margin-top: 80px;
+      margin-bottom: 60px;
+    }
+  }
+
+  @media (min-width: 1025px) and (max-width: 1366px) {
+    .itens-cars {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      .itens-cars {
+        .buttonLeft {
+          width: 275px;
+          height: 45px;
+          font-size: 14px;
+        }
+
+        .buttons {
+          .buttonRight {
+            display: none;
+          }
+        }
+
+        .compartilhar {
+          margin-top: 34px;
+          margin-bottom: 54px;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1366px) {
+    .itens-cars {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      .itens-cars {
+        .buttonLeft {
+          width: 275px;
+          height: 45px;
+          font-size: 14px;
+        }
+
+        .buttons {
+          .buttonRight {
+            display: none;
+          }
+        }
+
+        .compartilhar {
+          margin-top: 34px;
+          margin-bottom: 54px;
+        }
+      }
+    }
+
+    h2 {
+      margin-top: 80px;
+      margin-bottom: 60px;
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
+    .itens-cars {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      .itens-cars {
+        .buttonLeft {
+          width: 275px;
+          height: 45px;
+          font-size: 14px;
+        }
+
+        .buttons {
+          .buttonRight {
+            display: none;
+          }
+        }
+
+        .compartilhar {
+          margin-top: 34px;
+          margin-bottom: 54px;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .Cars {
+      .logo-whatsapp {
+        img {
+          width: 36px;
+          height: 36px;
+          position: fixed;
+          left: 33px;
+          bottom: 35px;
+          z-index: 99;
+        }
+      }
+    }
+
+    .container {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
+}

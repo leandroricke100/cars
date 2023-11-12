@@ -1,0 +1,30 @@
+.HeaderFixed {
+  .footer {
+    width: 100%;
+    background-color: var(--white-900);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    img {
+      width: 40px;
+    }
+
+    button {
+      width: 255px;
+      height: 60px;
+      border: none;
+      background-color: var(--blue-600);
+      color: var(--white-900);
+      font-weight: bold;
+      font-size: 14px;
+      text-align: center;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #0351be;
+      }
+    }
+  }
+}

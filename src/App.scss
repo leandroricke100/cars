@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "font-title";
+  src: url("./assets/fonts/BMWTypeNext-Bold.20210426144302.ttf");
+}
+
+@font-face {
+  font-family: "font-padrao";
+  src: url("./assets/fonts/BMWTypeNext-Light.20210426144302.ttf");
+}
+
+:root {
+  --blue-600: #1c69d4;
+  --blue-900: #0966af;
+  --white-900: #ffffff;
+  --black-900: #000000;
+  --black-700: #262626;
+  --green-600: #25d366;
+  --grey-100: #e6e6e6;
+  --grey-200: #00000029;
+  --grey-300: #bbbbbb;
+  --grey-400: #707070;
+  --grey-500: #666666;
+
+  --font-padrao: "font-padrao", Arial, Helvetica, sans-serif;
+  --font-title: "font-title", Arial, Helvetica, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-padrao);
+}

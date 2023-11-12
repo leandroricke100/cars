@@ -1,0 +1,84 @@
+.CarItem {
+  .itens-cars {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+
+    .images {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img:hover {
+        opacity: 0.5;
+      }
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+    }
+
+    p {
+      color: var(--black-700);
+      font-size: 20px;
+      text-align: left;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .buttonLeft {
+      background-color: var(--blue-600);
+      width: 156px;
+      height: 35px;
+      border: none;
+      color: var(--white-900);
+      font-weight: bold;
+      font-size: 12px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #0351be;
+      }
+    }
+
+    .buttonRight {
+      width: 156px;
+      height: 35px;
+      border: none;
+      color: var(--white-900);
+      font-weight: bold;
+      font-size: 12px;
+      background-color: var(--grey-500);
+      margin-bottom: 24px;
+    }
+
+    .compartilhar {
+      display: flex;
+      align-items: center;
+      color: var(--grey-500);
+      font-size: 12px;
+      margin-bottom: 4px;
+
+      a {
+        svg {
+          color: #666;
+          font-size: 20px;
+          margin-left: 16px;
+        }
+
+        &:hover {
+          svg {
+            color: #0351be;
+          }
+        }
+      }
+
+      // img {
+      //   width: 24px;
+      //   margin-left: 16px;
+      // }
+    }
+  }
+}
